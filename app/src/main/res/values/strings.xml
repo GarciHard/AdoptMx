@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">adoptMx</string>
+
+    <string name="facebook_app_id">1479195095432550</string>
+    <string name="cancel_login">Se canceló inicio de sesión con Facebook</string>
+    <string name="error_login">Ocurrio un error</string>
+    <string name="title_activity_main">adoptMx</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor a sapien iaculis volutpat. In rutrum elementum ex, at porttitor turpis euismod a. Suspendisse potenti. Nam egestas vitae est in commodo. Phasellus elit orci, ornare id erat quis, ullamcorper aliquam leo. Sed elementum posuere dui non volutpat. Nullam consectetur tortor ut sapien faucibus pellentesque.
+
+    Nulla vel fermentum purus, ut tincidunt risus. Donec vel vestibulum nunc. Nam erat orci, porttitor finibus fringilla vel, vulputate ut odio. Nam consectetur non nibh vitae lacinia. Morbi fringilla aliquet ex sed suscipit. Aliquam quis lorem venenatis, consectetur leo id, malesuada leo. Nam tincidunt efficitur fringilla. Duis nec risus nec risus fermentum gravida. Vestibulum non arcu sit amet mauris accumsan efficitur. Fusce nec aliquet dui. Suspendisse potenti. Suspendisse venenatis commodo tellus ac sagittis. Sed semper semper metus, quis gravida orci sagittis sit amet. Quisque ac eleifend erat, quis laoreet purus. Morbi viverra orci ligula, vitae commodo ex ultricies in. Curabitur fringilla magna elit, ut bibendum nibh congue in.
+
+    Quisque tristique tortor eu orci mollis interdum. Donec pharetra tellus et ante feugiat rhoncus. Vivamus lobortis eleifend enim, mattis egestas sem. Mauris sit amet lacus eu ante aliquet fermentum sed ac leo. Mauris vitae enim consectetur, imperdiet erat non, faucibus nisl. Ut aliquet magna elit, sed condimentum odio ultricies eget. Sed in porttitor tellus. Curabitur sit amet elementum nibh. Duis vehicula accumsan consectetur. Ut imperdiet in eros quis efficitur. Nullam varius sagittis gravida. Cras tincidunt risus a aliquet viverra.
+
+    Mauris ultricies tincidunt dui, at malesuada libero elementum at. In non eros quis dolor semper sodales tincidunt id ex. Nullam eu feugiat tellus, id maximus arcu. Proin sollicitudin laoreet sapien, non dapibus ipsum vestibulum ac. Ut leo ante, sagittis vel tristique quis, faucibus aliquet sem. Suspendisse massa lacus, tempus id vulputate sed, tempus eu nisi. Integer in dui tristique, pulvinar nunc sit amet, dapibus neque.
+
+    In et varius arcu. Duis non tristique sem, nec vehicula velit. Donec sed purus sed enim scelerisque elementum. Cras suscipit ac sem ut dignissim. Suspendisse ultricies cursus rutrum. Quisque posuere vestibulum dolor, vel hendrerit felis imperdiet blandit. Maecenas condimentum odio diam, vitae blandit nisl imperdiet in. Sed ut ultrices metus, eget fermentum turpis. Etiam sed elit placerat, feugiat mi eget, facilisis erat. Suspendisse tristique, enim tempor pretium consequat, felis mi ullamcorper sem, non lobortis enim urna sed elit. Vivamus cursus sagittis nisl, at volutpat purus viverra ac. Phasellus ullamcorper rhoncus felis sit amet ullamcorper.</string>
+    <string name="hello_blank_fragment1">FRAGMENT MASCOTAS</string>
+
+
+    <string name="home">Inicio</string>
+    <string name="mascotas">Mis mascotas</string>
+    <string name="acerca_de">Info. de la app</string>
+    <string name="logout">Cerrar sesión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="edadMascotas">
+        <item></item>
+        <item>0 meses</item>
+        <item>1 meses</item>
+        <item>2 meses</item>
+        <item>3 meses</item>
+        <item>4 meses</item>
+        <item>5 meses</item>
+        <item>6 meses</item>
+        <item>7 meses</item>
+        <item>8 meses</item>
+        <item>9 meses</item>
+        <item>10 meses</item>
+        <item>11 meses</item>
+        <item>1 año</item>
+        <item>2 años</item>
+        <item>3 años</item>
+        <item>4 años</item>
+        <item>5 años</item>
+        <item>6 años</item>
+        <item>7 años</item>
+        <item>8 años</item>
+        <item>9 años</item>
+        <item>10 años</item>
+        <item>11 años</item>
+        <item>12 años</item>
+        <item>13 años</item>
+        <item>14 años</item>
+        <item>15 años</item>
+        <item>16 años</item>
+        <item>17 años</item>
+        <item>18 años</item>
+        <item>19 años</item>
+        <item>20 años</item>
+    </string-array>
+    <string-array name="tamañoMascotas">
+        <item></item>
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="sexoMascota">
+        <item></item>
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+    <string-array name="especieMascota">
+        <item></item>
+        <item>Perro</item>
+        <item>Gato</item>
+    </string-array>
+
+    <string name="aboutInfo">Aplicación creada con el fin de facilitar la adopción de mascotas
+    entre los usuarios. Es de uso gratuito y por el momento se pueden publicar perros y gatos.
+    El desarrollo de la aplicación surge como una iniciativa para erradicar el abandono
+    de mascotas, lo que genera un problema social/salud para diferentes áreas de la sociedad.
+    \n\nFue desarrollada en el Instituto Tecnológico de Toluca por:
+        \nJaime Alexis García Hinojosa
+        \nVictor Manuel González Barcenas
+        \nPaulina Guadarrama Acosta
+    </string>
+</resources>

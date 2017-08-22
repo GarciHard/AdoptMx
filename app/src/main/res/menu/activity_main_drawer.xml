@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!-- <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" /> -->
+
+        <!-- <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Mis mascotas" /> -->
+
+        <!-- <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" /> -->
+
+        <!-- <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" /> -->
+    </group>
+
+    <item android:title="Opciones">
+        <menu>
+
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_account_balance_white_36dp"
+                android:title="@string/home" />
+
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_pets_white_36dp"
+                android:title="@string/mascotas" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_white_36dp"
+                android:title="@string/acerca_de" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_directions_walk_white_36dp"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

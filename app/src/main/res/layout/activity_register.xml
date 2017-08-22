@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.garcihard.adoptmx.RegisterActivity">
+
+    <!-- img user -->
+    <ImageView
+        android:id="@+id/imgRegisterUser"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_material_red"/>
+
+    <!-- campo nombre -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_registerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@id/imgRegisterUser">
+
+        <EditText
+            android:id="@+id/txtRegisterName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Nombre(s)" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- campo apellidos -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_registerLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@id/input_registerName">
+
+        <EditText
+            android:id="@+id/txtRegisterLastName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Apellidos" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- campo correo -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_registerMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@id/input_registerLastName">
+
+        <EditText
+            android:id="@+id/txtRegisterMail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- campo password -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@id/input_registerMail">
+
+        <EditText
+            android:id="@+id/txtRegisterPass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- floating opciones -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnRegisterOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_add_white_36dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="222dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!-- floating img user -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnRegisterImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimaryLight"
+        app:fabSize="mini"
+        android:src="@drawable/ic_camera_enhance_white_36dp"
+        android:visibility="invisible"
+        android:layout_marginBottom="40dp"
+        android:layout_alignBottom="@+id/imgRegisterUser"
+        android:layout_alignLeft="@+id/btnRegisterUploadFirebase"
+        android:layout_alignStart="@+id/btnRegisterUploadFirebase" />
+
+    <!-- floating upload firebase -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnRegisterUploadFirebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:visibility="invisible"
+        android:src="@drawable/ic_cloud_upload_white_36dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="13dp"
+        android:layout_above="@+id/btnRegisterImage"
+        android:layout_alignRight="@+id/btnRegisterOptions"
+        android:layout_alignEnd="@+id/btnRegisterOptions" />
+
+
+</RelativeLayout>

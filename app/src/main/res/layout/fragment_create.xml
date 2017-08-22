@@ -1,0 +1,222 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.garcihard.adoptmx.CreateFragment">
+
+    <!-- Toolbar para guiarme en el espacio de la pantalla -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imgMascota"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/my_toolbar"
+        android:src="@drawable/background_material_red"
+        android:scaleType="centerCrop"/>
+
+    <!--FLOATING BUTTON PRINCIPAL-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_add_white_36dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="13dp"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--FLOATING BUTTON IMAGENES-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimaryLight"
+        app:fabSize="mini"
+        android:src="@drawable/ic_camera_enhance_white_36dp"
+        android:visibility="invisible"
+        android:layout_marginBottom="40dp"
+        android:layout_alignBottom="@+id/imgMascota"
+        android:layout_alignLeft="@+id/btnGuardar"
+        android:layout_alignStart="@+id/btnGuardar" />
+
+    <!--FLOATING BUTTON FIREBASE-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:visibility="invisible"
+        android:src="@drawable/ic_cloud_upload_white_36dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="13dp"
+        android:layout_above="@+id/btnImagen"
+        android:layout_alignRight="@+id/btnOptions"
+        android:layout_alignEnd="@+id/btnOptions" />
+
+    <!--LINEAR LAYOUT PRINCIPAL-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnOptions"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <!--LINEAR LAYOUT SUPERIOR-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <!--LINEAR LAYOUT SUPERIOR/IZQUIERDO-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Especie:"
+                    android:layout_marginLeft="25dp"/>
+
+                <Spinner
+                    android:id="@+id/comboEspecie"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tamaño:"
+                    android:layout_marginLeft="25dp"/>
+
+                <Spinner
+                    android:id="@+id/comboTamaño"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edad:"
+                    android:layout_marginLeft="25dp"/>
+
+                <Spinner
+                    android:id="@+id/comboEdad"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <!--LINEAR LAYOUT SUPERIOR/DERECHO-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_txtNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1" >
+
+                    <EditText
+                        android:id="@+id/txtNombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Nombre" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_txtRaza"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/txtRaza"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Raza" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sexo:"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"/>
+
+                <Spinner
+                    android:id="@+id/comboSexo"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--LINEAR LAYOUT INFERIOR-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_txtDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/txtDescripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Descripcion" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

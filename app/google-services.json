@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "543147932676",
+    "firebase_url": "https://adoptmx.firebaseio.com",
+    "project_id": "adoptmx",
+    "storage_bucket": "adoptmx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543147932676:android:c231ceb76f50557e",
+        "android_client_info": {
+          "package_name": "com.garcihard.adoptmx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543147932676-vmjr4m7n2phdopqv7vg59a1nhc2no149.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.garcihard.adoptmx",
+            "certificate_hash": "2f021d1147d28ba83bf0b8ecdea45276e4431faa"
+          }
+        },
+        {
+          "client_id": "543147932676-e76i7ns51q9imag1s0h8ivm0jqji4nv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCloulBaPFJ4rELoItGkLNeZDUHCURrIqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543147932676-e76i7ns51q9imag1s0h8ivm0jqji4nv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

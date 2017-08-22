@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/d6cb5dcd1a39a386c059ec733cbc3b429fc99c6b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_4a6bfb28ee3ee83a2f7f6816f61afd93dcbd38e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/9a3074e0c0dcad8e8be63de24446c7ea9a6cee1f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_a5215d6534463cda7d011e1c36e725f6746c66c7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_225eddbe349c8266da5eac8e54ef6583d1159de7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/59a3c68766b15a01dda5c887a72dc1cebcda8aa5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_124cbb76377c71c618e7f689f3a8f0ec2dfbea01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/04f53689ca1c77a3c086b1d1f2eb18e8c0dce0f5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_df65f1a1f2501ab3db6c30c0287fb46132b39522.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/75f78497852179cb6e2ca60de7513d2514e294bf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_7feed83602a4ef00dbabed4dcc521afcc239b44c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/c1d48d8898bd21493400334976b1630b91718be3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_a477c28f778ccf318adfe6e634adebb156e699eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/glide-3.7.0_32bb33f36c6bc05a4a99a7fc982d368534ae9053.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_57f555564d83eef060fcf894019e9e040af44823.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/7c8f519207d7ce944554b300873b0924d6d4924c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_e9e986d82d2d589e8cd3955a0d4b2c5cb7424857.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/4989546e6c13675a882fcb9558de80fdad214834/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_419fa87e4027a11d7ef25e94b67e1c22cfe321ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/2219088a34e12e70c8ff5f4dd0d5099d81dc9937/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_576c77c508af64c88a427da5c463b7887e9ed6fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/7723359bc7d513cf544b8efa85af760a1f2409c8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5cbc9214ee567ea6ef56fb2707d48e58d240fc2">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_79241e9d4153a01f7e95a98161c9132a28fc7161.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/7aafc81908fbab1c29e8b181ea32267c07af8574/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_852a60a4e76d665ff937d8e95af37ab20970db9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/a12fb2aadbe733b3a66ee57a67e9c074e9f3b249/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_7f9dd13692f76af928a3b6e8d36e1addd548eb2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/29ce370d0f2fd3e9aced93f2e18af43e8eeb9023/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_8ecd4a7e65e67c10cf6fce020f70249d09051d80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/1d96fd5eaf5685c26b50728862e0b4b4091f708b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_dde6322780007b64c02484686da07786485411d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_0b1d0f764fc405b0fa0de35312a6988ea6685856.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/3fa8b4f6a509f354d4f1361e8195dab96456aced/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_590b062cecda290aa9420b1550b1d92a7984341a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/b25e47506ac1dde5d7d544faf1eb2131b6e73332/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_bb3931f92e1a9c48de2e7006f0f036f124497991.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/73b0cba326b440e5e215c779e018e76299022774/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_d61a11edcc25d61a75b62d5d9b6fa54ccc819f98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_f9ee918eb40d81bc1dc92e079381268d25373efb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/a478d3ccb2466791707c6930de3cf09762746fd2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_4b557114263b8e8e4db52387c3346b8e28156b81.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfa8de26ce495cb0323d90e6cf77b0eac9a891b8">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1df61be51a0053283cd458e002956e69bf4338fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/56b0b1d11b51d275cde0836e6e20149925307434/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_ea8a22efee187a8abfbdd5ed62ca58d673ca44ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/647bc784b32e98e150c5f7d451720da515bcd51b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_db072ac61ad095ac461a6ae6cf01975d5c0a997d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/2ce47de917363ff393260a2441716d5e269d19d0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_421ce04e418b8c3582dcd2f4edadb2189be2531f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_f2f085493adfbc411aa1e8bd189046b95147133f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/45cd48246fce25097eb0e2e43cac9222aed63193/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_8c2f4123e6922e6b51bd700966a2bfbb4c10f324.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/7da0a64f648272e0ca6cb0960e4dc32c7db89ac4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_e302a50c8a0d3782452b5ed405b58d4d7f20b2b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/bf66e9bbd2cf36675cf3bb4a1dcdefa43214bd24/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_bd000cddeb2b24937b0705f74bc07d8641cf1294.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/51373ba6405b24c4853eea5f6ca820f1ad4f8a6b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_28e11126627fd94ec5fc21d9e94b5557aa90618f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/0f66a7173558164eaf370e88eba11fa2e4d87eb7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_a0022d45a3a09aafd99d2fa97fd20d8de9b6fb03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/4ef5f5a3daa8a409e310e9210b565fbe447dba3c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_078ad0a9be89d63efcd5bc4f643d6070c681b3fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garcihard/.android/build-cache/4bb4d5a6660580671f33c508228db1bf014ccc6d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/garcihard/OneDrive/Alexis_12voSemestre/Desarrollo_Movil/AdoptMx/app/build/intermediates/pre-dexed/debug/classes_3c4937c6364d273a6886515c13953bbd3f22954d.jar" />
+    </item>
+
+</items>

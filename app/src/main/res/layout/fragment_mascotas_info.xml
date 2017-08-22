@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.garcihard.adoptmx.CreateFragment">
+
+    <!-- Toolbar para guiarme en el espacio de la pantalla -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imgMascotaInfo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/my_toolbar"
+        android:src="@drawable/background_material_red"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@id/imgMascotaInfo" >
+
+        <TextView
+            android:id="@+id/nombreMascotaInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/razaMascotaInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nombreMascotaInfo"
+            android:layout_marginTop="16dp"
+            android:text="Raza:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tamañoMascotaInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/razaMascotaInfo"
+            android:layout_marginTop="16dp"
+            android:text="Tamaño:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edadMascotaInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tamañoMascotaInfo"
+            android:layout_marginTop="16dp"
+            android:text="Edad:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sexoMascotaInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edadMascotaInfo"
+            android:layout_marginTop="16dp"
+            android:text="Sexo:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descripcionMascotaInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sexoMascotaInfo"
+            android:layout_marginTop="16dp"
+            android:text="Descripción:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton android:id="@+id/btnInfoUser"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_mail_outline_white_36dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
